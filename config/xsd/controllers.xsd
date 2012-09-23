@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="controllers">
+  <xs:complexType>
+  	<xs:sequence>
+    	<xs:element name="controller" maxOccurs="unbounded">
+    		<xs:complexType>
+			  	<xs:attribute name="name" type="xs:string" use="required"/>
+				<xs:attribute name="path" type="xs:string" use="required"/> 
+			</xs:complexType>
+    	</xs:element>
+ 	 </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

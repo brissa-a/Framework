@@ -1,0 +1,11 @@
+<controllers>
+
+    <controller
+        name="testPlugin"
+        path="plugin/testPlugin/controller.xml" />
+        
+    <controller
+        name="default_controller"
+        path="plugin/testPlugin/controller.xml" />
+
+</controllers>

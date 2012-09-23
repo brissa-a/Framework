@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="controller-mapping">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="layout">
+					<xs:complexType>
+						<xs:attribute name="name" type="xs:string" use="required"/>
+						<xs:attribute name="path" type="xs:string" use="required"/>
+						<xs:anyAttribute/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="result">
+					<xs:complexType>
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							 <xs:any minOccurs="0" processContents="lax"/>
+						</xs:choice>
+						<xs:attribute name="name" type="xs:string" use="required"/>
+						<xs:attribute name="path" type="xs:string" use="required"/>
+						<xs:attribute name="layout" type="xs:string" />
+						<xs:anyAttribute/>
+					</xs:complexType>
+
+				</xs:element>
+				<xs:element name="action" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="result"/>
+						</xs:choice>
+						<xs:attribute name="name" type="xs:string" use="required"/>
+						<xs:attribute name="path" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="action-group" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="action"/>
+							<xs:element name="result"/>
+						</xs:choice>
+						<xs:attribute name="name" type="xs:string" use="required"/>
+						<xs:attribute name="path" type="xs:string" use="required"/>
+						<xs:anyAttribute/>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

@@ -1,0 +1,13 @@
+body
+{
+	width:	1024px;
+	margin:	auto;
+}
+
+section#corps
+{
+	display: inline-block;
+	border: 2px solid black;
+	margin:	auto;
+	width: 78%;
+}

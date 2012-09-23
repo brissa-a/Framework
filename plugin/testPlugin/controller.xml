@@ -1,0 +1,15 @@
+<controller-mapping>
+
+	<layout name="main" path="layout/main/main.php" />
+	
+	<action
+		name="test"
+		path="plugin/testPlugin/action/test.php" />
+	
+	<result
+		name="home"
+		path="plugin/testPlugin/result/test.html"
+		layout="main">
+	</result>
+
+</controller-mapping>

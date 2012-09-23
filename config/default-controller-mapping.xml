@@ -1,0 +1,187 @@
+<controller-mapping>
+
+    <!-- accountManager -->
+
+	<layout name="main" path="layout/main/main.php" />
+
+    <action
+        name="checkLogin"
+        path="plugin/accountManager/login/checkLogin" />
+
+    <action
+        name="login"
+        path="plugin/accountManager/login/login" />
+
+    <action
+        name="logout"
+        path="plugin/accountManager/logout/logout" />
+
+    <action
+        name="join"
+        path="plugin/accountManager/join/join" />
+
+    <action
+        name="checkLoginJoin"
+        path="plugin/accountManager/join/joinAJAX" />
+
+    <action
+        name="update"
+        path="plugin/accountManager/updateAccount/update" />
+
+    <action
+        name="updatePassword"
+        path="plugin/accountManager/updateAccount/changePassword" />
+
+    <action
+        name="getListeAccount"
+        path="plugin/accountManager/listeAccount/getListeAccount" >
+
+        <result
+            name="listeAccount"
+            path="plugin/accountManager/listeAccount/listeAccount" />
+    </action>
+
+    <action
+        name="jqgridListAccount"
+        path="plugin/accountManager/listeAccount/jqgridListAccount" />
+        
+    <result
+		name="forgottenPassword"
+		path="plugin/accountManager/forgottenPassword/view/forgottenPassword" />
+		
+	<action
+        name="sendNewPassword"
+        path="plugin/accountManager/forgottenPassword/action/sendNewPassword" >
+		
+		<result
+            name="loginNotFound"
+            path="plugin/accountManager/forgottenPassword/view/loginNotFound" />
+            
+       <result
+            name="mailSended"
+            path="plugin/accountManager/forgottenPassword/view/mailSended" />
+    </action>	
+
+    <!-- recetteViewer -->
+
+    <action
+        name="getCreateRecetteForm"
+        path="plugin/recetteViewer/action/getCreateRecetteForm" >
+
+        <result
+            name="createRecetteForm"
+            path="plugin/recetteViewer/result/createRecetteForm/createRecetteForm" />
+    </action>
+
+    <action
+        name="createRecette"
+        path="plugin/recetteViewer/action/createRecette" />
+
+    <action
+        name="updateRecette"
+        path="plugin/recetteViewer/action/updateRecette" />
+
+    <action
+        name="deleteRecette"
+        path="plugin/recetteViewer/action/deleteRecette" />
+
+    <result
+        name="listeRecette"
+        path="plugin/recetteViewer/result/listeRecette/listeRecette" />
+
+    <action
+        name="getRecette"
+        path="plugin/recetteViewer/action/getRecette" >
+
+        <result
+            name="recette"
+            path="plugin/recetteViewer/result/recette/recette" />
+    </action>
+
+    <!-- Page général -->
+
+	<result
+		name="lieu"
+		path="page/lieu" />
+
+    <result
+        name="pleaseLogin"
+        path="plugin/accountManager/common/pleaseLogin" />
+        
+    <result
+        name="formLogin"
+        path="plugin/accountManager/login/formLogin" />
+
+    <result
+        name="formJoin"
+        path="plugin/accountManager/join/formJoin" />
+
+    <result
+        name="formUpdate"
+        path="plugin/accountManager/updateAccount/formUpdate" />
+
+    <result
+        name="formule"
+        path="page/formule" />
+
+    <result
+        name="profil"
+        path="page/profil" />
+
+    <result
+        name="mentionLegal"
+        path="page/mentionLegal" />
+
+    <result
+        name="reserver"
+        path="page/reserver" />
+
+    <result
+        name="atelierptitschefs"
+        path="page/Atelier p'tit chef" />
+        
+	<result
+    	name="valantin"
+    	path="page/valantin" />
+    	
+	<result
+    	name="boncadeau"
+    	path="page/boncadeau" />
+
+	<!-- atelier manager -->
+
+    <result
+        name="tarif"
+        path="plugin/atelierManager/listeAtelier/tarif" />
+        
+    <action
+        name="jqgridAtelierManager"
+        path="plugin/atelierManager/listeAtelier/jqgridAtelierManager" />
+        
+    <result
+        name="formAjoutAtelier"
+        path="plugin/atelierManager/ajoutAtelier/formAjoutAtelier" />
+   	
+   	<result
+        name="formUpdateAtelier"
+        path="plugin/atelierManager/ajoutAtelier/formUpdateAtelier" />
+         
+    <action
+    	name="ajoutAtelier"
+    	path="plugin/atelierManager/ajoutAtelier/ajoutAtelier" />
+    
+    <action
+    	name="deleteAtelier"
+    	path="plugin/atelierManager/deleteAtelier/deleteAtelier" />
+
+    <result
+        name="formAjoutLieu"
+        path="plugin/atelierManager/ajoutLieu/formAjoutLieu" />
+        
+    <action
+    	name="ajoutLieu"
+    	path="plugin/atelierManager/ajoutLieu/ajoutLieu" />
+    	
+
+	
+</controller-mapping>

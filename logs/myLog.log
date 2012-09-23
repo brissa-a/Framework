@@ -1,0 +1,1740 @@
+ERROR 08/30/12 17:54:30 Controller - Error controllers.xsd not found - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+ERROR 08/30/12 18:07:08 Controller - Error  is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+ERROR 08/30/12 18:07:22 Controller - Error H:/workspace/template/config/../config/controllers.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+FATAL 08/30/12 18:09:36 XmlLoader - <br/>
+<b>Fatal Error 4</b>: Document is empty in <b>file:///H:/workspace/template/config/xsd/controllers.xsd</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:61)
+FATAL 08/30/12 18:09:36 XmlLoader - <br/>
+<b>Fatal Error 4</b>: Start tag expected, '<' not found in <b>file:///H:/workspace/template/config/xsd/controllers.xsd</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:61)
+FATAL 08/30/12 18:09:36 XmlLoader - <br/>
+<b>Error 3067</b>: Failed to parse the XML resource 'H:\workspace\template\config\xsd\controllers.xsd'. on line <b>0</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:61)
+ERROR 08/30/12 18:09:36 Controller - Error H:/workspace/template/config/../config/controllers.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+FATAL 08/30/12 18:49:45 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexContent': The content is not valid. Expected is (annotation?, (restriction | extension)). in <b>file:///H:/workspace/template/config/xsd/controllers.xsd</b> on line <b>7</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 18:49:45 Controller - Error H:/workspace/template/config/../config/controllers.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+FATAL 08/30/12 18:51:12 XmlLoader - <br/>
+<b>Error 1868</b>: Element 'controllers': The attribute 'name' is required but missing. in <b>H:/workspace/template/config/../config/controllers.xml</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 18:51:12 XmlLoader - <br/>
+<b>Error 1868</b>: Element 'controllers': The attribute 'path' is required but missing. in <b>H:/workspace/template/config/../config/controllers.xml</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 18:51:12 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'controllers': Character content is not allowed, because the content type is empty. in <b>H:/workspace/template/config/../config/controllers.xml</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 18:51:12 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'controllers': Element content is not allowed, because the content type is empty. in <b>H:/workspace/template/config/../config/controllers.xml</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 18:51:12 Controller - Error H:/workspace/template/config/../config/controllers.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+FATAL 08/30/12 18:55:52 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}element': The content is not valid. Expected is (annotation?, ((simpleType | complexType)?, (unique | key | keyref)*)). in <b>file:///H:/workspace/template/config/xsd/controllers.xsd</b> on line <b>8</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 18:55:52 Controller - Error H:/workspace/template/config/../config/controllers.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+FATAL 08/30/12 19:04:41 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'controller': This element is not expected. Expected is ( controllers ). in <b>H:/workspace/template/config/../config/controllers.xml</b> on line <b>5</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 19:04:41 Controller - Error H:/workspace/template/config/../config/controllers.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+ERROR 08/30/12 19:04:58 Controller - String could not be parsed as XML - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+ERROR 08/30/12 19:07:49 Controller - String could not be parsed as XML - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 19:08:07 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:145)
+ERROR 08/30/12 19:08:07 Controller - defaultController variable is null - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:16:45 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:17:18 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+ERROR 08/30/12 20:17:18 Controller - Controller default_controller not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+FATAL 08/30/12 20:18:24 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'controller': This element is not expected. in <b>H:/workspace/template/config/../config/controllers.xml</b> on line <b>9</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:18:24 Controller - Error H:/workspace/template/config/../config/controllers.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:22:31 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+ERROR 08/30/12 20:22:31 Controller - Controller default_controller not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:22:45 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:23:17 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:23:35 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:23:35 XmlLoader - <br/>
+<b>Fatal Error 4</b>: Document is empty in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:23:35 XmlLoader - <br/>
+<b>Fatal Error 4</b>: Start tag expected, '<' not found in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>1</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:23:35 XmlLoader - <br/>
+<b>Error 3067</b>: Failed to parse the XML resource 'H:\workspace\template\config\xsd\mapping.xsd'. on line <b>0</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:23:35 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:29:03 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 22 and complexType in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>25</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: complexType line 21 and element in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>26</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 20 and sequence in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>27</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: sequence line 6 and complexType in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>28</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: complexType line 5 and element in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>29</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 4 and schema in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>31</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Fatal Error 77</b>: Premature end of data in tag schema line 2 in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>31</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:03 XmlLoader - <br/>
+<b>Error 3067</b>: Failed to parse the XML resource 'H:\workspace\template\config\xsd\mapping.xsd'. on line <b>0</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:29:03 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:29:12 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:29:12 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>15</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:29:12 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>22</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:29:12 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:34:51 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:34:51 XmlLoader - <br/>
+<b>Fatal Error 73</b>: expected '>' in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>19</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:34:51 XmlLoader - <br/>
+<b>Error 3067</b>: Failed to parse the XML resource 'H:\workspace\template\config\xsd\mapping.xsd'. on line <b>0</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:34:51 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:35:12 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:35:12 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'action': This element is not expected. Expected is ( result ). in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>5</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:35:12 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:37:41 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:37:41 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'action': This element is not expected. Expected is ( result ). in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>5</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:37:41 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:40:16 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:40:16 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>7</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:40:16 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>17</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:40:16 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:40:16 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>27</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:40:16 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>28</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:40:16 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>24</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:40:16 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:41:27 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:41:27 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>7</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:41:27 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>17</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:41:27 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:41:27 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>27</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:41:27 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>28</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:41:27 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>24</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:41:27 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:46:21 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:46:21 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'action': Missing child element(s). Expected is ( result ). in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>5</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:46:21 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'result': This element is not expected. Expected is ( action ). in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>9</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:46:21 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:47:06 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:47:06 XmlLoader - <br/>
+<b>Error 3035</b>: Element '{http://www.w3.org/2001/XMLSchema}element': The attribute 'minOccures' is not allowed. in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>17</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:47:06 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:47:26 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:47:26 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'result': This element is not expected. Expected is ( action ). in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>9</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:47:26 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:48:17 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:48:17 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'result': This element is not expected. Expected is ( action ). in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>9</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:48:17 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:48:47 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:48:47 XmlLoader - <br/>
+<b>Error 1871</b>: Element 'result': This element is not expected. Expected is ( action ). in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>8</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:48:47 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:51:56 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+FATAL 08/30/12 20:51:56 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>7</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:51:56 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>17</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:51:56 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:51:56 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>26</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:51:56 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>27</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 08/30/12 20:51:56 XmlLoader - <br/>
+<b>Error 3091</b>: Element '{http://www.w3.org/2001/XMLSchema}element': Invalid value for maxOccurs (must be 0 or 1). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>23</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 08/30/12 20:51:56 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:53:58 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:53:58 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:53:58 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+ERROR 08/30/12 20:53:58 Controller - Default result variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:54:30 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:54:31 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:54:31 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+ERROR 08/30/12 20:54:31 Controller - Default result variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:54:46 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:54:46 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:54:46 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+ERROR 08/30/12 20:54:46 Controller - Default result variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:55:17 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:55:17 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:55:17 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+ERROR 08/30/12 20:55:17 Controller - Default result variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:55:22 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:55:22 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:55:22 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+ERROR 08/30/12 20:55:22 Controller - Default result variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 20:55:57 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:55:57 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:55:57 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 20:56:45 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:56:45 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:56:45 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 20:57:03 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:57:03 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:57:03 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 20:57:09 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:57:09 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:57:09 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 20:57:23 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 20:57:23 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 20:57:23 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:01:26 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:01:26 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:01:26 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:01:56 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:01:56 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:01:56 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:02:13 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:02:13 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:02:13 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:02:14 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:02:14 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:02:14 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:03:28 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:155)
+DEBUG 08/30/12 21:03:28 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:157)
+DEBUG 08/30/12 21:03:28 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+ERROR 08/30/12 21:03:28 Controller - L'action  n'est pas defini dans le controller default_controller: - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+DEBUG 08/30/12 21:04:01 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:155)
+DEBUG 08/30/12 21:04:01 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:157)
+DEBUG 08/30/12 21:04:01 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+ERROR 08/30/12 21:04:01 Controller - L'action  n'est pas defini dans le controller default_controller:plugin/testPlugin/controller.xml - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+DEBUG 08/30/12 21:04:59 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:155)
+DEBUG 08/30/12 21:04:59 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:157)
+DEBUG 08/30/12 21:04:59 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+DEBUG 08/30/12 21:04:59 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:161)
+DEBUG 08/30/12 21:07:15 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:155)
+DEBUG 08/30/12 21:07:15 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:157)
+DEBUG 08/30/12 21:07:15 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+DEBUG 08/30/12 21:07:15 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:161)
+DEBUG 08/30/12 21:07:52 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:07:52 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:07:52 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:07:52 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:160)
+DEBUG 08/30/12 21:08:51 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:08:51 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:08:51 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:08:51 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:160)
+DEBUG 08/30/12 21:10:22 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:10:22 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:10:22 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:10:22 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:160)
+DEBUG 08/30/12 21:11:52 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+ERROR 08/30/12 21:11:52 Controller - Default controller variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 21:12:19 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+ERROR 08/30/12 21:12:19 Controller - Default controller variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 21:15:08 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+ERROR 08/30/12 21:15:08 Controller - Default controller variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 21:15:16 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+ERROR 08/30/12 21:15:16 Controller - Default controller variable not properly setted - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 21:16:03 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:16:03 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:16:18 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:16:18 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:16:48 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:16:48 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:16:48 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:17:06 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:17:06 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:17:06 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:17:06 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:160)
+DEBUG 08/30/12 21:20:34 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:20:34 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:20:34 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:20:34 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:160)
+DEBUG 08/30/12 21:20:35 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:20:35 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:20:35 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:20:35 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:160)
+DEBUG 08/30/12 21:24:15 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:24:15 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:156)
+DEBUG 08/30/12 21:24:15 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:158)
+DEBUG 08/30/12 21:24:15 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:160)
+DEBUG 08/30/12 21:52:20 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+DEBUG 08/30/12 21:52:20 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:161)
+DEBUG 08/30/12 21:52:20 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+DEBUG 08/30/12 21:52:20 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 21:52:21 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+DEBUG 08/30/12 21:52:21 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:161)
+DEBUG 08/30/12 21:52:21 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+DEBUG 08/30/12 21:52:21 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 21:52:25 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+DEBUG 08/30/12 21:52:25 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:161)
+DEBUG 08/30/12 21:52:25 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+DEBUG 08/30/12 21:52:25 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+DEBUG 08/30/12 21:52:42 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:159)
+ERROR 08/30/12 21:52:42 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:170)
+DEBUG 08/30/12 21:53:35 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:162)
+ERROR 08/30/12 21:53:35 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:173)
+DEBUG 08/30/12 21:54:15 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+ERROR 08/30/12 21:54:15 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:174)
+DEBUG 08/30/12 21:55:01 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:164)
+ERROR 08/30/12 21:55:01 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:175)
+DEBUG 08/30/12 21:55:55 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+ERROR 08/30/12 21:55:55 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:176)
+DEBUG 08/30/12 21:55:55 Controller - Internal error - 
+Controller.printErrorPage(H:\workspace\template\class\controller\Controller.class.php:154)
+DEBUG 08/30/12 21:56:33 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+ERROR 08/30/12 21:56:33 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:173)
+DEBUG 08/30/12 21:56:33 Controller - Not Found - 
+Controller.printNotFoundPage(H:\workspace\template\class\controller\Controller.class.php:144)
+DEBUG 08/30/12 21:56:56 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+ERROR 08/30/12 21:56:56 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:173)
+DEBUG 08/30/12 21:57:11 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:165)
+ERROR 08/30/12 21:57:11 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:173)
+DEBUG 08/30/12 21:57:11 Controller - Not Found - 
+Controller.printNotFoundPage(H:\workspace\template\class\controller\Controller.class.php:147)
+DEBUG 08/30/12 21:57:51 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:164)
+ERROR 08/30/12 21:57:51 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:172)
+DEBUG 08/30/12 21:58:08 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+ERROR 08/30/12 21:58:08 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 08/30/12 21:58:14 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+ERROR 08/30/12 21:58:14 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 08/30/12 21:59:43 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+ERROR 08/30/12 21:59:43 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 08/30/12 22:00:27 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+ERROR 08/30/12 22:00:27 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 08/30/12 22:01:04 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+ERROR 08/30/12 22:01:04 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 08/30/12 22:01:17 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:163)
+ERROR 08/30/12 22:01:17 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 08/30/12 22:02:45 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:164)
+ERROR 08/30/12 22:02:45 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:172)
+DEBUG 08/30/12 22:03:49 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:170)
+ERROR 08/30/12 22:03:49 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:178)
+DEBUG 08/30/12 22:03:50 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:170)
+ERROR 08/30/12 22:03:50 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:178)
+DEBUG 08/30/12 22:03:56 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:170)
+ERROR 08/30/12 22:03:56 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:178)
+DEBUG 08/30/12 22:04:06 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:170)
+ERROR 08/30/12 22:04:06 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:178)
+DEBUG 08/30/12 22:04:49 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:170)
+ERROR 08/30/12 22:04:49 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 08/30/12 22:05:14 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:170)
+ERROR 08/30/12 22:05:14 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 08/30/12 22:07:19 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:177)
+ERROR 08/30/12 22:07:19 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:188)
+DEBUG 08/30/12 22:07:28 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:177)
+ERROR 08/30/12 22:07:28 Controller - Controller asdasfd not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:188)
+DEBUG 09/03/12 16:12:44 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 09/03/12 16:12:44 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:173)
+DEBUG 09/03/12 16:12:44 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:175)
+DEBUG 09/03/12 16:14:44 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 09/03/12 16:14:44 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:173)
+DEBUG 09/03/12 16:14:44 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:175)
+DEBUG 09/03/12 16:16:56 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:171)
+DEBUG 09/03/12 16:16:56 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:173)
+DEBUG 09/03/12 16:16:56 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:175)
+DEBUG 09/03/12 16:16:56 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:177)
+DEBUG 09/03/12 16:47:09 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/03/12 16:47:09 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/03/12 16:47:09 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/03/12 16:47:09 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:188)
+DEBUG 09/03/12 16:56:37 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/03/12 16:56:37 XmlLoader - <br/>
+<b>Fatal Error 68</b>: error parsing attribute name in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>5</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/03/12 16:56:37 XmlLoader - <br/>
+<b>Fatal Error 65</b>: attributes construct error in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>5</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/03/12 16:56:37 XmlLoader - <br/>
+<b>Fatal Error 73</b>: Couldn't find end of Start Tag layout line 3 in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>5</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/03/12 16:56:37 XmlLoader - <br/>
+<b>Error 1872</b>: The document has no document element. on line <b>0</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/03/12 16:56:37 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/03/12 16:57:27 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/03/12 16:57:27 XmlLoader - <br/>
+<b>Error 1878</b>: Element 'result', attribute 'layout': No matching global attribute declaration available, but demanded by the strict wildcard. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/03/12 16:57:27 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/03/12 16:58:48 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/03/12 16:58:48 XmlLoader - <br/>
+<b>Error 1878</b>: Element 'result', attribute 'layout': No matching global attribute declaration available, but demanded by the strict wildcard. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/03/12 16:58:48 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/03/12 16:58:48 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/03/12 16:58:48 XmlLoader - <br/>
+<b>Error 1878</b>: Element 'result', attribute 'layout': No matching global attribute declaration available, but demanded by the strict wildcard. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/03/12 16:58:48 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/03/12 16:59:12 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/03/12 16:59:12 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/03/12 16:59:12 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+ERROR 09/03/12 16:59:12 Controller - Le layout main n'est pas defini dans le controller:plugin/testPlugin/controller.xml - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:189)
+DEBUG 09/03/12 16:59:30 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/03/12 16:59:30 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/03/12 16:59:30 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/03/12 16:59:48 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/03/12 16:59:48 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/03/12 16:59:48 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/03/12 16:59:48 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/03/12 16:59:53 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/03/12 16:59:53 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/03/12 16:59:53 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/06/12 17:37:18 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/06/12 17:37:18 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/06/12 17:37:18 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/06/12 17:42:16 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/06/12 17:42:16 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/06/12 17:42:16 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/06/12 18:14:23 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/06/12 18:14:23 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/06/12 18:14:23 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/06/12 18:14:23 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 13:00:27 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:00:27 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'result': Character content is not allowed, because the content type is empty. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:00:27 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'result': Element content is not allowed, because the content type is empty. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:00:27 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:00:39 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:00:39 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'result': Character content is not allowed, because the content type is empty. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:00:39 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'result': Element content is not allowed, because the content type is empty. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:00:39 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:27:43 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 22 and choice in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>23</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: choice line 20 and complexType in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>24</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: complexType line 15 and element in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>25</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 14 and choice in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>46</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: choice line 6 and complexType in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>47</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: complexType line 5 and element in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>48</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 4 and schema in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>50</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Fatal Error 77</b>: Premature end of data in tag schema line 2 in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>50</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:27:43 XmlLoader - <br/>
+<b>Error 3067</b>: Failed to parse the XML resource 'H:\workspace\template\config\xsd\mapping.xsd'. on line <b>0</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:27:43 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:35:43 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 22 and choice in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>23</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: choice line 20 and complexType in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>24</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: complexType line 15 and element in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>25</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 14 and choice in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>46</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: choice line 6 and complexType in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>47</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: complexType line 5 and element in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>48</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 76</b>: Opening and ending tag mismatch: element line 4 and schema in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>50</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Fatal Error 77</b>: Premature end of data in tag schema line 2 in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>50</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:35:43 XmlLoader - <br/>
+<b>Error 3067</b>: Failed to parse the XML resource 'H:\workspace\template\config\xsd\mapping.xsd'. on line <b>0</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:35:43 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:36:39 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:36:39 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:36:39 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:41:48 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:41:48 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:41:48 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:41:49 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:41:49 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:41:49 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:42:42 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:42:42 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:42:42 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:49:10 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:49:10 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'result': Character content is not allowed, because the content type is empty. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 13:49:10 XmlLoader - <br/>
+<b>Error 1841</b>: Element 'result': Element content is not allowed, because the content type is empty. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:49:10 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:57:03 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:57:03 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:57:03 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:57:04 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:57:04 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:57:04 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:59:45 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:59:45 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:59:45 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 13:59:52 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 13:59:52 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}complexType': The content is not valid. Expected is (annotation?, (simpleContent | complexContent | ((group | all | choice | sequence)?, ((attribute | attributeGroup)*, anyAttribute?)))). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>20</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 13:59:52 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 14:34:24 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 14:34:24 XmlLoader - <br/>
+<b>Error 1866</b>: Element 'result', attribute 'name': The attribute 'name' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 14:34:24 XmlLoader - <br/>
+<b>Error 1866</b>: Element 'result', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 14:34:24 XmlLoader - <br/>
+<b>Error 1866</b>: Element 'result', attribute 'layout': The attribute 'layout' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>12</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 14:34:24 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'css', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>13</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 14:34:24 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'js', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 14:34:24 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 15:06:05 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 15:06:05 XmlLoader - <br/>
+<b>Error 3033</b>: Element '{http://www.w3.org/2001/XMLSchema}element': The content is not valid. Expected is (annotation?, ((simpleType | complexType)?, (unique | key | keyref)*)). in <b>file:///H:/workspace/template/config/xsd/mapping.xsd</b> on line <b>21</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 15:06:05 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 15:06:40 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 15:06:40 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'css', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>13</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 15:06:40 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'js', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 15:06:40 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 15:06:40 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 15:06:40 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'css', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>13</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 15:06:40 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'js', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 15:06:40 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 15:06:41 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 15:06:41 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'css', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>13</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 15:06:41 XmlLoader - <br/>
+<b>Error 1827</b>: Element 'js', attribute 'path': The attribute 'path' is not allowed. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 15:06:41 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 15:25:26 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 15:25:26 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 15:25:26 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 15:25:26 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 19:27:20 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 19:27:20 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 19:27:20 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 19:27:21 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 19:33:02 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 19:33:02 XmlLoader - <br/>
+<b>Error 1845</b>: Element 'css': No matching global element declaration available, but demanded by the strict wildcard. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>13</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 19:33:02 XmlLoader - <br/>
+<b>Error 1845</b>: Element 'js': No matching global element declaration available, but demanded by the strict wildcard. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 19:33:02 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 19:37:34 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+FATAL 09/09/12 19:37:34 XmlLoader - <br/>
+<b>Error 1845</b>: Element 'css': No matching global element declaration available, but demanded by the strict wildcard. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>13</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+FATAL 09/09/12 19:37:34 XmlLoader - <br/>
+<b>Error 1845</b>: Element 'js': No matching global element declaration available, but demanded by the strict wildcard. in <b>file:///H:/workspace/template/plugin/testPlugin/controller.xml</b> on line <b>14</b>
+ - 
+XmlLoader.libxml_display_errors(H:\workspace\template\class\controller\XmlLoader.class.php:60)
+ERROR 09/09/12 19:37:34 Controller - Error plugin/testPlugin/controller.xml is invalid - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:192)
+DEBUG 09/09/12 19:44:10 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 19:44:10 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 19:44:10 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 19:44:10 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 19:57:10 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 19:57:10 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 19:57:10 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 19:57:10 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 19:58:17 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 19:58:17 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 19:58:17 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 19:58:17 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 19:58:41 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 19:58:41 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 19:58:41 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 19:58:41 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:37:57 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:37:57 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:37:57 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:37:57 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:47:17 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:47:17 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:47:17 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:47:17 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:47:28 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:47:28 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:47:28 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:47:28 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:47:53 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:47:53 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:47:53 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:47:53 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:48:25 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:48:25 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:48:25 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:48:25 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:48:48 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:48:48 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:48:48 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:48:48 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:50:05 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:50:05 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:50:05 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:50:05 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:50:20 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:50:20 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:50:20 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:50:20 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:52:06 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:52:06 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:52:06 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:52:06 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:52:24 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:52:24 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:52:24 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:52:24 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 20:52:32 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 20:52:32 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 20:52:32 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 20:52:32 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:05:02 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:05:02 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:05:02 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:05:02 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:08:28 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:08:28 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:08:28 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:08:28 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:08:57 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:08:57 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:08:57 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:08:57 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:09:55 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:09:55 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:09:55 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:09:55 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:09:59 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:09:59 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:09:59 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:09:59 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:10:19 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:10:19 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:10:19 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:10:19 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:12:55 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:12:55 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:12:55 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:12:55 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:13:12 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:13:12 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:13:12 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:13:12 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:13:30 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:13:30 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:13:30 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:13:30 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:14:01 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:14:01 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:14:01 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:14:01 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:15:43 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:15:43 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:15:43 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:15:43 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:15:54 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:15:54 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:15:54 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:15:54 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:16:03 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:16:03 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:16:03 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:16:03 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:19:28 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:19:28 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:19:28 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:19:28 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:25:13 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:25:13 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:25:13 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:25:13 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:26:37 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:26:37 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:26:37 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:26:37 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:26:45 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:26:45 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:26:45 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:26:45 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:44:02 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:44:02 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:44:02 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:44:02 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/09/12 21:45:53 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/09/12 21:45:53 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/09/12 21:45:53 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/09/12 21:45:53 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 10:58:24 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 10:58:24 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 10:58:24 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 10:58:24 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:01:15 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:01:15 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:01:15 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:01:15 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:01:19 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:01:19 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:01:19 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:01:19 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:01:24 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:01:24 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:01:24 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:01:24 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:01:25 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:01:25 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:01:25 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:01:25 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:01:31 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:01:31 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:01:31 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:01:31 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:01:35 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:01:35 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:01:35 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:01:35 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:01:48 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:01:48 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:01:48 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:01:48 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:02:13 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:02:13 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:02:13 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:02:13 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:02:15 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:02:15 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:02:15 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:02:15 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:02:26 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:02:26 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:02:26 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:02:26 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:02:31 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:02:31 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:02:31 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:02:31 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:02:35 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:02:35 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:02:35 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:02:35 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:02:39 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:02:39 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:02:39 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:02:39 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:02:43 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:02:43 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:02:43 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:02:43 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 11:19:47 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 11:19:47 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 11:19:47 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 11:19:47 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:10:31 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:10:31 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:10:31 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:13:09 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:13:09 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:13:09 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:13:15 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:13:15 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:13:15 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:13:30 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:13:30 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:13:30 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:13:36 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:13:36 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:13:36 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:13:36 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:13:52 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:13:52 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:13:52 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:14:02 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:14:02 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:14:02 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:14:02 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:16:06 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:16:06 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:16:06 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:16:06 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:38:46 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:38:46 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:38:46 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:38:46 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:39:21 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:39:21 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:39:21 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:39:21 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:51:05 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:51:05 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:51:05 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:51:05 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:51:06 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:51:06 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:51:06 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:51:06 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:52:57 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:52:57 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:52:57 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:52:57 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:53:00 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:53:00 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:53:00 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:53:00 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:53:09 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:53:09 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:53:09 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:53:09 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:54:08 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:54:08 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:54:08 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:54:08 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:57:49 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:57:49 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:57:49 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:57:49 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 16:59:15 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 16:59:15 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 16:59:15 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 16:59:15 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 17:08:45 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 17:08:45 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 17:08:45 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 17:08:45 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 17:09:26 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 17:09:26 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 17:09:26 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 17:09:26 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 17:10:00 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 17:10:00 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 17:10:00 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 17:10:00 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 17:10:18 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 17:10:18 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 17:10:18 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 17:10:18 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 17:10:34 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 17:10:34 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 17:10:34 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+DEBUG 09/10/12 17:10:34 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:187)
+DEBUG 09/10/12 17:10:55 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:181)
+DEBUG 09/10/12 17:10:55 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:183)
+DEBUG 09/10/12 17:10:55 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:185)
+ERROR 09/10/12 17:10:55 Controller -  pour l'action  - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:189)
+DEBUG 09/10/12 17:11:39 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:11:39 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:11:39 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+ERROR 09/10/12 17:11:39 Controller -  pour l'action  - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:188)
+DEBUG 09/10/12 17:11:58 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:11:58 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:11:58 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 17:11:58 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/10/12 17:12:19 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:12:19 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:12:19 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 17:12:19 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/10/12 17:49:32 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:49:32 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:49:32 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 17:49:32 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/10/12 17:49:39 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:49:39 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:49:39 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 17:49:39 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/10/12 17:57:31 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:57:31 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:57:31 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 17:57:31 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/10/12 17:58:16 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:58:16 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:58:16 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 17:58:16 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/10/12 17:58:24 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 17:58:24 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 17:58:24 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 17:58:24 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/10/12 18:06:32 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/10/12 18:06:32 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/10/12 18:06:32 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/10/12 18:06:32 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/17/12 17:36:36 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/17/12 17:36:36 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/17/12 17:36:36 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/17/12 17:36:36 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/17/12 17:39:27 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/17/12 17:39:27 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/17/12 17:39:27 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/17/12 17:39:27 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/17/12 17:39:38 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/17/12 17:39:38 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/17/12 17:39:38 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/17/12 17:39:38 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/17/12 17:42:38 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+DEBUG 09/17/12 17:42:38 Controller - Controller loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:182)
+DEBUG 09/17/12 17:42:38 Controller - Action executed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:184)
+DEBUG 09/17/12 17:42:38 Controller - Result printed - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:186)
+DEBUG 09/17/12 17:49:51 Controller - Controllers loaded - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
+ERROR 09/17/12 17:49:51 Controller - Controller controller not defined - 
+Controller.execute(H:\workspace\template\class\controller\Controller.class.php:191)
