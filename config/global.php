@@ -15,7 +15,7 @@ require_once (LIB_DIR . 'Doctrine/ORM/Tools/Setup.php');
 Setup::registerAutoloadDirectory(LIB_DIR);
 /* ---- Configure EntityManager ---- */
 $isDevMode = true;
-$mapConfig = Setup::createXMLMetadataConfiguration(array($curdir . "/mapping"), $isDevMode);
+$mapConfig = Setup::createXMLMetadataConfiguration(array(ROOT_DIR . "/mapping"), $isDevMode);
 $dbConfig = parse_ini_file("db_config.ini");
 $em = \Doctrine\ORM\EntityManager::create($dbConfig, $mapConfig);
 

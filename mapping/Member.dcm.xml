@@ -12,7 +12,7 @@
         <field name="login" type="string" unique="true" length="255"/>
         <field name="password" type="string" length="32"/>
         <field name="firstName" type="string" length="255"/>
-        <field name="familyName" type="string" length="255"/>
+        <field name="familyName" type="string" length="255" gen_required="true"/>
         <field name="birthDate" type="date" />
         <field name="subscribeDate" type="datetime" />
         <field name="lastConnection" type="datetime" />

@@ -12,7 +12,7 @@
 		<field name="numero" type="integer"/>
 		<field name="repetition" type="string"/>
 		<field name="nomVoie" type="string" />
-		<field name="codePostal" type="string" length="5"/>
+		<field name="codePostal" type="string" length="5" gen_minlength="5" gen_required="true"/>
 		<field name="ville" type="string" />
 		
 		<many-to-one field="typeVoie" target-entity="TypeVoie" fetch="EAGER"/>
