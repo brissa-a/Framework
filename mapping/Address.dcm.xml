@@ -1,22 +1,20 @@
 <doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
-                    http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="Address" table="adresses">
-        
+	<entity name="Address" table="adresses">
+
 		<id name="id" type="integer">
 			<generator strategy="AUTO" />
 		</id>
-
 		<field name="numero" type="integer"/>
 		<field name="repetition" type="string"/>
 		<field name="nomVoie" type="string" />
 		<field name="codePostal" type="string" length="5" gen_minlength="5" gen_required="true"/>
 		<field name="ville" type="string" />
-		
 		<many-to-one field="typeVoie" target-entity="TypeVoie" fetch="EAGER"/>
 
-    </entity>
-    
+	</entity>
+
 </doctrine-mapping>

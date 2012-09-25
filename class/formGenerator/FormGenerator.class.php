@@ -2,83 +2,77 @@
 include "../utils.php";
 
 class FormGenerator {
-	static private $map = array("string" => "generateStringField", "date" => "generateDateField", "datetime" => "generateDatetimeField");
+	static private $map = array(
+		"string" => "generateStringInput",
+		"date" => "generateDateInput",
+		"datetime" => "generateDatetimeInput"
+	);
 
-	public static function generateField($param) {
-		println("<p>");
-		println("	<label for=\"" . $param['name'] . "\">" . $param['name'] . ":</label>");
-		echo "	<input";
-		foreach ($param as $key => $value) {
-			echo " $key=\"$value\" ";
-		}
-		println("/>");
-		println("</p>");
+	public static function generateIntegerInput($inputElement) {
+		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
+		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] + " date" : "";
+		$inputElement['type'] = "text";
 	}
 
-	public static function generateStringField($param) {
-		if (isset($param['name'])) {
-			$param['id'] = isset($param['id']) ? $param['id'] : $param['name'];
-			$param['class'] = isset($param['class']) ? $param['class'] : "";
-			$param['type'] = "text";
-			FormGenerator::generateField($param);
-		} else {
-			echo "Parametre obligatoire \"name\" non sette.";
-		}
+	public static function generateStringInput($inputElement) {
+		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
+		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] : "";
+		$inputElement['type'] = "text";
 	}
 
-	public static function generateDateField($param) {
-		if (isset($param['name'])) {
-			$param['id'] = isset($param['id']) ? $param['id'] : $param['name'];
-			$param['class'] = isset($param['class']) ? $param['class'] + " date" : "";
-			$param['type'] = "text";
-			FormGenerator::generateField($param);
-		} else {
-			echo "Parametre obligatoire \"name\" non sette.";
-		}
+	public static function generateDateInput($inputElement) {
+		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
+		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] + " date" : "";
+		$inputElement['type'] = "text";
 	}
 
-	public static function generateDatetimeField($param) {
-		if (isset($param['name'])) {
-			$param['id'] = isset($param['id']) ? $param['id'] : $param['name'];
-			$param['class'] = isset($param['class']) ? $param['class'] + " datetime" : "";
-			$param['type'] = "text";
-			FormGenerator::generateField($param);
-		} else {
-			echo "Parametre obligatoire \"name\" non sette.";
-		}
+	public static function generateDatetimeInput($inputElement) {
+		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
+		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] + " datetime" : "";
+		$inputElement['type'] = "text";
 	}
 
 	public static function generateFromDoctrine($filename) {
 		$xml = simplexml_load_file($filename);
 
-		// foreach(self::$map as $key => $value) {
-		// echo $key . "=>" . $value . "\n";
-		// }
 		foreach ($xml -> children() as $entity) {
-			if ($entity -> getName() == "entity") {
+			if ($entity->getName() == "entity") {// Pour chaque entite
+
+				$formElement = new SimpleXMLElement("<form></form>");
+				$formElement->addAttribute("id", "form" . $entity["name"]);
+				$formElement->addAttribute("action", "@update" . $entity["name"] . ".html");
+				$formElement->addAttribute("method", "post");
+
 				foreach ($entity -> children() as $field) {
-					if ($field -> getName() == "field") {
+					if ($field->getName() == "field") {// Pour chaque champ
 						if (array_key_exists((string)$field["type"], self::$map)) {
+							$fieldElement = $formElement->addChild("p");
+							$name = $entity['name'] . "_" . $field['name'];
+							$labelElement = $fieldElement->addChild("label", $name . ":");
+							$inputElement = $fieldElement->addChild("input");
 							$function = (self::$map[(string)$field["type"]]);
 							unset($param);
-							$param['name'] = $entity['name'] . "_" . $field['name'];
+							$inputElement['name'] = $name;
+							if (isset($field['gen_minlength'])) {
+								$inputElement['minlength'] = $field['gen_minlength'];
+							}
 							if (isset($field['length'])) {
-								$param['maxlength'] = $field['length'];
+								$inputElement['maxlength'] = $field['length'];
 							}
 							if (isset($field['gen_required']) && $field['gen_required'] == 'true') {
-								$param['class'] = "required";
+								$inputElement['class'] = "required";
 							}
-							if (isset($field['gen_minlength'])) {
-								$param['minlength'] = $field['gen_minlength'];
-							}
-							
-							FormGenerator::$function($param);
+							FormGenerator::$function($inputElement);
 						} else {
-							echo "No generation function for type " . $field["type"] . ".\n";
+							$fieldElement = $formElement->addChild("p", "No generation function for type " . $field["type"]);
 						}
 					}
 				}
+				$dom =   dom_import_simplexml($formElement)->ownerDocument;
+				$dom->formatOutput = true;
+				echo $dom->saveXML();
 			}
 		}	}
+
 }
 ?>

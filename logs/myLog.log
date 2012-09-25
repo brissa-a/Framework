@@ -1738,3 +1738,59 @@ DEBUG 09/17/12 17:49:51 Controller - Controllers loaded -
 Controller.execute(H:\workspace\template\class\controller\Controller.class.php:180)
 ERROR 09/17/12 17:49:51 Controller - Controller controller not defined - 
 Controller.execute(H:\workspace\template\class\controller\Controller.class.php:191)
+DEBUG 09/25/12 20:00:56 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/25/12 20:00:56 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/25/12 20:00:56 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/25/12 20:00:56 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/25/12 20:01:50 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/25/12 20:01:50 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/25/12 20:01:50 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/25/12 20:01:50 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/25/12 20:02:25 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+ERROR 09/25/12 20:02:25 Controller - Controller accountManager not defined - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:191)
+DEBUG 09/25/12 20:04:08 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/25/12 20:04:08 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/25/12 20:04:08 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+ERROR 09/25/12 20:04:08 Controller -  pour l'action  - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:188)
+DEBUG 09/25/12 20:04:31 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/25/12 20:04:31 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/25/12 20:04:31 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/25/12 20:04:31 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/25/12 20:09:50 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/25/12 20:09:50 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/25/12 20:09:50 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/25/12 20:09:50 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/25/12 20:11:27 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+ERROR 09/25/12 20:11:27 Controller - Controller accountMaasdr not defined - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:188)
+DEBUG 09/25/12 20:11:32 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/25/12 20:11:32 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/25/12 20:11:32 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/25/12 20:11:32 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)

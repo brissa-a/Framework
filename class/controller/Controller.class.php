@@ -81,7 +81,7 @@ class Controller {
 				throw new Exception("controller file could not be find:" . $controller);
 			}
 		} else {
-			throw new Exception("Controller " . $this -> controllerName . " not defined");
+			throw new NotFoundException("Controller " . $this -> controllerName . " not defined");
 		}
 	}
 
