@@ -1794,3 +1794,563 @@ DEBUG 09/25/12 20:11:32 Controller - Action executed -
 Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
 DEBUG 09/25/12 20:11:32 Controller - Result printed - 
 Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:32:45 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:32:45 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:32:45 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:32:45 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:10 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:10 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:10 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:10 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:12 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:12 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:12 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:12 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:13 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:13 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:13 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:13 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:14 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:14 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:14 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:14 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:15 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:15 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:15 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:15 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:17 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:17 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:17 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:17 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:25 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:25 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:25 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:25 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:28 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:28 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:28 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:28 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:40 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:40 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:40 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:40 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:40 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:40 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:40 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:40 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:41 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:41 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:41 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:41 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:41 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:41 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:41 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:41 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:41 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:41 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:41 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:41 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:50 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:50 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:50 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:50 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:33:51 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:33:51 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:33:51 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:33:51 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:35:31 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:35:31 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:35:31 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:35:31 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:39:18 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:39:18 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:39:18 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:39:18 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:39:20 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:39:20 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:39:20 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:39:20 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:39:40 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:39:40 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:39:40 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:39:40 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:39:43 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:39:43 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:39:43 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:39:43 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:40:18 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:40:18 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:40:18 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:40:18 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:44:39 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:44:39 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:44:39 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:44:39 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:44:59 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:44:59 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:44:59 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:44:59 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:45:03 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:45:03 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:45:03 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:45:03 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:45:25 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:45:25 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:45:25 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:45:25 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:47:26 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:47:26 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:47:26 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:47:26 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:52:02 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:52:02 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:52:02 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:52:02 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:52:59 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:52:59 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:52:59 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:52:59 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:54:08 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:54:08 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:54:08 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:54:08 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:56:45 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:56:45 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:56:45 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:56:45 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 17:58:32 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:58:32 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:58:32 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 17:59:19 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 17:59:19 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 17:59:19 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:00:23 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:00:23 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:00:23 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:00:55 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:00:55 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:00:55 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:00:55 Controller -  - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:23)
+DEBUG 09/26/12 18:00:55 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:00:56 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:00:56 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:00:56 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:00:56 Controller -  - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:23)
+DEBUG 09/26/12 18:00:56 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:01:49 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:01:49 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:01:49 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:01:49 Controller -  - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:23)
+DEBUG 09/26/12 18:01:49 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:02:02 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:02:02 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:02:02 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:02:02 Controller -  - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:23)
+DEBUG 09/26/12 18:02:02 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:03:06 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:03:06 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:03:06 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:03:06 Controller -  - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:23)
+DEBUG 09/26/12 18:03:06 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:03:20 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:03:20 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:03:20 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:03:20 Controller - Load js: - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:23)
+DEBUG 09/26/12 18:03:20 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:03:47 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:03:47 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:03:47 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:03:47 Controller - plugin/accountManager/resultformAddress - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:23)
+DEBUG 09/26/12 18:03:47 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:04:05 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:04:05 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:04:05 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:04:05 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:05:01 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:05:01 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:05:01 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:05:01 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:06:06 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:06:06 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:06:06 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:06:06 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:06:32 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:06:32 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:06:32 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:06:32 Controller - Include Page Specifique JS:plugin/accountManager/resultformAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:06:32 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:06:57 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:06:57 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:06:57 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:06:57 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:06:57 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:09:34 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:09:34 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:09:34 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:09:34 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:09:34 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:09:46 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:09:46 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:09:46 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:09:46 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:09:46 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:10:44 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:10:44 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:10:44 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:10:44 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:10:44 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:10:53 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:10:53 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:10:53 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:10:53 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:10:53 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:10:59 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:10:59 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:10:59 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:10:59 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:10:59 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:18:18 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:18:18 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:18:18 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:18:18 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:18:18 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:52:20 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:52:20 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:52:20 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:52:20 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:52:20 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:53:24 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:53:24 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:53:24 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:53:24 Controller - Include Page Specifique JS:plugin/accountManager/result/formContact.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:53:24 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:54:23 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:54:23 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:54:23 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:54:23 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:54:23 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:55:34 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:55:34 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:55:34 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:55:34 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:55:34 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 18:55:50 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 18:55:50 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 18:55:50 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 18:55:50 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 18:55:50 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 19:00:51 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 19:00:51 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 19:00:51 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 19:00:51 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 19:00:51 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 19:01:20 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 19:01:20 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 19:01:20 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 19:01:20 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 19:01:20 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 19:06:19 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 19:06:19 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 19:06:19 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 19:06:19 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 19:06:19 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 19:06:36 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 19:06:36 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 19:06:36 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 19:06:36 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 19:06:36 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 19:42:25 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 19:42:25 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 19:42:25 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 19:42:25 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 19:42:25 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 20:18:16 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 20:18:16 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 20:18:16 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 20:18:16 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 20:18:16 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/26/12 20:19:23 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/26/12 20:19:23 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/26/12 20:19:23 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/26/12 20:19:23 Controller - Include Page Specifique JS:plugin/accountManager/result/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/26/12 20:19:23 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)

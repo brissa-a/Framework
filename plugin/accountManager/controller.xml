@@ -11,5 +11,17 @@
 		path="plugin/accountManager/result/formAddress.html"
 		layout="main">
 	</result>
+	
+	<result
+		name="formContact"
+		path="plugin/accountManager/result/formContact.html"
+		layout="main">
+	</result>
+	
+	<result
+		name="formMember"
+		path="plugin/accountManager/result/formMember.html"
+		layout="main">
+	</result>
 
 </controller-mapping>

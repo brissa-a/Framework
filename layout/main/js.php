@@ -12,17 +12,18 @@
 <script type="text/javascript" src="<?php echo "$filename"?>"></script>
 <?php endforeach; ?>
 
-
 <script type="text/javascript" src="layout/main/header/header.js"></script>
 <script type="text/javascript" src="layout/main/footer/footer.js"></script>
 <script type="text/javascript" src="layout/main/menu/menu.js"></script>
 
 <!-- Page Specifique JS -->
 <?php
-$pathinfo = pathinfo($resultData['path'], PATHINFO_DIRNAME) + pathinfo($resultData['path'], PATHINFO_FILENAME);
-if (file_exists($pathinfo . ".js"))
-	include $pathinfo . ".js";
+$pathinfo = pathinfo($resultData['path'], PATHINFO_DIRNAME) . "/" . pathinfo($resultData['path'], PATHINFO_FILENAME);
+$this->logger->debug("Include Page Specifique JS:" . $pathinfo . ".js");
+if (file_exists($pathinfo . ".js")) :
 ?>
+<script type="text/javascript" src="<?php echo $pathinfo . ".js"?>"></script>
+<?php endif;?>
 
 <!-- Additional Page Specific Js defined in controller -->
 <?php foreach ($resultData -> children() as $metaData) :?>
