@@ -1,8 +1,9 @@
 <?php
 
-include_once "./Generator.class.php";
+namespace Generator;
+include_once "./AbstractGenerator.class.php";
 
-abstract class PhpCrudGenerator extends Generator{
+abstract class ActionCreateUpdate extends AbstractGenerator{
 	static private $map = array(
 		"string" => "generateString",
 		"date" => "generateDate",
@@ -14,7 +15,7 @@ abstract class PhpCrudGenerator extends Generator{
 	protected $outputfiled;
 	protected $outputdir;
 
-	public function PhpCrudGenerator($outputdir) {
+	public function __construct($outputdir) {
 		$this->outputdir = $outputdir;
 	}
 

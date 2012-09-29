@@ -1,5 +1,8 @@
 <?php
-abstract class Generator {
+
+namespace Generator;
+
+abstract class AbstractGenerator {
 	
 	public static function formName($entity, $field) {
 		return strtolower($entity["name"] . "_" . $field["name"]);

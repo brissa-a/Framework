@@ -1,8 +1,9 @@
 <?php
 
-include_once "./HtmlGenerator.class.php";
+namespace Generator;
+include_once "./FormCreate.class.php";
 
-class HtmlGeneratorImpl extends HtmlGenerator{
+class FormCreateImpl extends FormCreate{
 
 	protected function generateIntegerInput($inputElement) {
 		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];

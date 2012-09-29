@@ -1,8 +1,9 @@
 <?php
 
-include_once "./PhpCrudGenerator.class.php";
+namespace Generator;
+include_once "./ActionCreateUpdate.class.php";
 
-class PhpCrudGeneratorImpl extends PhpCrudGenerator{
+class ActionCreateUpdateImpl extends ActionCreateUpdate{
 
 	protected function generateDate($entity, $field) {
 		$fieldName = $this->formName($entity, $field);

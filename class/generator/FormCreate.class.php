@@ -1,8 +1,10 @@
 <?php
 
-include_once "./Generator.class.php";
+namespace Generator;
 
-abstract class HtmlGenerator extends Generator {
+include_once "./AbstractGenerator.class.php";
+
+abstract class FormCreate extends AbstractGenerator {
 	static private $map = array(
 		"string" => "generateStringInput",
 		"date" => "generateDateInput",
@@ -12,12 +14,12 @@ abstract class HtmlGenerator extends Generator {
 	private $formElement;
 	private $outputdir;
 
-	public function HtmlGenerator($outputdir) {
+	public function __construct($outputdir) {
 		$this->outputdir = $outputdir;
 	}
 
 	public function generateStartEntity($entity) {
-		$this->formElement = new SimpleXMLElement("<form></form>");
+		$this->formElement = new \SimpleXMLElement("<form></form>");
 		$this->formElement->addAttribute("id", "form" . $entity["name"]);
 		$this->formElement->addAttribute("action", "@update" . $entity["name"] . ".html");
 		$this->formElement->addAttribute("method", "post");

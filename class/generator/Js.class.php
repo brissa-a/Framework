@@ -1,8 +1,9 @@
 <?php
 
-include_once "./Generator.class.php";
+namespace Generator;
+include_once "./AbstractGenerator.class.php";
 
-class JsGenerator extends Generator{
+class Js extends AbstractGenerator{
 	static private $map = array(
 		"string" => "generateStringInput",
 		"date" => "generateDateInput",
@@ -13,7 +14,7 @@ class JsGenerator extends Generator{
 	private $outputdir;
 	private $outputfile;
 
-	public function JsGenerator($outputdir) {
+	public function __construct($outputdir) {
 		$this->outputdir = $outputdir;
 	}
 
