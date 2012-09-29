@@ -1,6 +1,8 @@
 <?php
 
-class HtmlGenerator {
+include_once "./Generator.class.php";
+
+class HtmlGenerator extends Generator{
 	static private $map = array(
 		"string" => "generateStringInput",
 		"date" => "generateDateInput",
@@ -12,30 +14,6 @@ class HtmlGenerator {
 
 	public function HtmlGenerator($outputdir) {
 		$this->outputdir = $outputdir;
-	}
-
-	private static function generateIntegerInput($inputElement) {
-		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
-		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] : "";
-		$inputElement['type'] = "text";
-	}
-
-	private static function generateStringInput($inputElement) {
-		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
-		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] : "";
-		$inputElement['type'] = "text";
-	}
-
-	private static function generateDateInput($inputElement) {
-		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
-		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] + " date" : "date";
-		$inputElement['type'] = "text";
-	}
-
-	private static function generateDatetimeInput($inputElement) {
-		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
-		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] + " datetime" : "datetime";
-		$inputElement['type'] = "text";
 	}
 
 	public function generateStartEntity($entity) {

@@ -1,6 +1,8 @@
 <?php
 
-class JsGenerator {
+include_once "./Generator.class.php";
+
+class JsGenerator extends Generator{
 	static private $map = array(
 		"string" => "generateStringInput",
 		"date" => "generateDateInput",

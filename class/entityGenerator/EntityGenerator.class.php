@@ -1,6 +1,6 @@
 <?php
 include "../utils.php";
-include "./HtmlGenerator.class.php";
+include "./HtmlGeneratorImpl.class.php";
 include "./JsGenerator.class.php";
 include "./PhpCrudGenerator.class.php";
 
@@ -9,7 +9,7 @@ class FormGenerator {
 
 	public static function generateFromDoctrine($inputfile, $outputdir) {
 		$xml = simplexml_load_file($inputfile);
-		$html = new HtmlGenerator($outputdir);
+		$html = new HtmlGeneratorImpl($outputdir);
 		$js = new JsGenerator($outputdir);
 		$crud = new PhpCrudGenerator($outputdir);
 		foreach ($xml -> children() as $entity) {

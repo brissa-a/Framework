@@ -1,6 +1,8 @@
 <?php
 
-class PhpCrudGenerator {
+include_once "./Generator.class.php";
+
+class PhpCrudGenerator extends Generator{
 	static private $map = array(
 		"string" => "generateString",
 		"date" => "generateDate",
@@ -17,22 +19,25 @@ class PhpCrudGenerator {
 	}
 
 	private function generateDate($entity, $field) {
+		$fieldName = strtolower($entity["name"] . "_" . $field["name"]);
 		fwrite($this->outputfilec,
-'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '(DateTime::createFromFormat("d/m/Y", $_POST["' . $field["name"] . '"]));
+'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '(DateTime::createFromFormat("d/m/Y", $_POST["' . $fieldName . '"]));
 ');
 
 	}
 
 	private function generateDateTime($entity, $field) {
+		$fieldName = strtolower($entity["name"] . "_" . $field["name"]);
 		fwrite($this->outputfilec,
-'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '(DateTime::createFromFormat("d/m/Y H:i", $_POST["' . $field["name"] . '"]));
+'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '(DateTime::createFromFormat("d/m/Y H:i", $_POST["' . $fieldName . '"]));
 ');
 	
 	}
 
 	private function generateString($entity, $field) {
+		$fieldName = strtolower($entity["name"] . "_" . $field["name"]);
 		fwrite($this->outputfilec,
-'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '($_POST["' . $field["name"] . '"]);
+'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '($_POST["' . $fieldName . '"]);
 ');
 	}
 
@@ -43,9 +48,9 @@ class PhpCrudGenerator {
 		fwrite($this->outputfilec, "<?php\n");
 		
 		fwrite($this->outputfilec,
-'if (isset($_POST["id"])) {
+'if (isset($_POST["'. $entity['name'] . '_id"])) {
 	//Update
-	$new' . $entity["name"] . ' = $em -> getRepository("' . $entity["name"] . '") -> findOneBy(array("id" => $_POST["id"]));;		
+	$new' . $entity["name"] . ' = $em -> getRepository("' . $entity["name"] . '") -> findOneBy(array("id" => $_POST["'. $entity['name'] . '_id"]));;		
 } else {
 	//Create
 	$new' . $entity["name"] . ' = new ' . $entity["name"] . '();			
