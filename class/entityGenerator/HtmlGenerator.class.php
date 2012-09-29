@@ -2,7 +2,7 @@
 
 include_once "./Generator.class.php";
 
-class HtmlGenerator extends Generator{
+abstract class HtmlGenerator extends Generator {
 	static private $map = array(
 		"string" => "generateStringInput",
 		"date" => "generateDateInput",
@@ -26,7 +26,7 @@ class HtmlGenerator extends Generator{
 	public function generateStartField($entity, $field) {
 		if (array_key_exists((string)$field["type"], self::$map)) {
 			$fieldElement = $this->formElement->addChild("p");
-			$name = strtolower($entity['name']) . "_" . $field['name'];
+			$name = $this->formName($entity, $field);
 			$label = isset($field['label']) ? $field['label'] : $name;
 			$labelElement = $fieldElement->addChild("label", $label . ":");
 			$inputElement = $fieldElement->addChild("input");
@@ -41,17 +41,22 @@ class HtmlGenerator extends Generator{
 			if (isset($field['gen_required']) && $field['gen_required'] == 'true') {
 				$inputElement['class'] = "required";
 			}
-			self::$function($inputElement);
+			$this->$function($inputElement);
 		} else {
 			$fieldElement = $this->formElement->addChild("p", "No generation function for type " . $field["type"]);
 		}
 	}
 
-	public function generateEndEntity($entity) {	
-		$dom = dom_import_simplexml($this->formElement)->ownerDocument;
+	public function generateEndEntity($entity) {
+		$dom =  dom_import_simplexml($this->formElement)->ownerDocument;
 		$dom->formatOutput = true;
 		$dom->save($this->outputdir . "/form" . $entity['name'] . ".html");
 	}
+
+	abstract protected function generateIntegerInput($inputElement);
+	abstract protected function generateStringInput($inputElement);
+	abstract protected function generateDateInput($inputElement);
+	abstract protected function generateDatetimeInput($inputElement);
 
 }
 ?>

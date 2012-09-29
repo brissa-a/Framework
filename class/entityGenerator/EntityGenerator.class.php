@@ -2,16 +2,15 @@
 include "../utils.php";
 include "./HtmlGeneratorImpl.class.php";
 include "./JsGenerator.class.php";
-include "./PhpCrudGenerator.class.php";
+include "./PhpCrudGeneratorImpl.class.php";
 
-class FormGenerator {
-
+class EntityGenerator {
 
 	public static function generateFromDoctrine($inputfile, $outputdir) {
 		$xml = simplexml_load_file($inputfile);
 		$html = new HtmlGeneratorImpl($outputdir);
 		$js = new JsGenerator($outputdir);
-		$crud = new PhpCrudGenerator($outputdir);
+		$crud = new PhpCrudGeneratorImpl($outputdir);
 		foreach ($xml -> children() as $entity) {
 			if ($entity->getName() == "entity") {// Pour chaque entite
 				$html->generateStartEntity($entity);

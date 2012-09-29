@@ -2,43 +2,20 @@
 
 include_once "./Generator.class.php";
 
-class PhpCrudGenerator extends Generator{
+abstract class PhpCrudGenerator extends Generator{
 	static private $map = array(
 		"string" => "generateString",
 		"date" => "generateDate",
 		"datetime" => "generateDatetime"
 	);
 	
-	private $outputfilec;
-	private $outputfileu;
-	private $outputfiled;
-	private $outputdir;
+	protected $outputfilec;
+	protected $outputfileu;
+	protected $outputfiled;
+	protected $outputdir;
 
 	public function PhpCrudGenerator($outputdir) {
 		$this->outputdir = $outputdir;
-	}
-
-	private function generateDate($entity, $field) {
-		$fieldName = strtolower($entity["name"] . "_" . $field["name"]);
-		fwrite($this->outputfilec,
-'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '(DateTime::createFromFormat("d/m/Y", $_POST["' . $fieldName . '"]));
-');
-
-	}
-
-	private function generateDateTime($entity, $field) {
-		$fieldName = strtolower($entity["name"] . "_" . $field["name"]);
-		fwrite($this->outputfilec,
-'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '(DateTime::createFromFormat("d/m/Y H:i", $_POST["' . $fieldName . '"]));
-');
-	
-	}
-
-	private function generateString($entity, $field) {
-		$fieldName = strtolower($entity["name"] . "_" . $field["name"]);
-		fwrite($this->outputfilec,
-'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '($_POST["' . $fieldName . '"]);
-');
 	}
 
 	public function generateStartEntity($entity) {
@@ -79,6 +56,11 @@ $em -> flush($new' . $entity["name"] . ');
 		fclose($this->outputfileu);
 		fclose($this->outputfiled);
 	}
+
+
+	abstract protected function generateDate($entity, $field);
+	abstract protected function generateDateTime($entity, $field);
+	abstract protected function generateString($entity, $field);
 
 }
 ?>
