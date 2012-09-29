@@ -11,8 +11,8 @@ abstract class FormCreate extends AbstractGenerator {
 		"datetime" => "generateDatetimeInput"
 	);
 
-	private $formElement;
-	private $outputdir;
+	protected $formElement;
+	protected $outputdir;
 
 	public function __construct($outputdir) {
 		$this->outputdir = $outputdir;
@@ -43,22 +43,28 @@ abstract class FormCreate extends AbstractGenerator {
 			if (isset($field['gen_required']) && $field['gen_required'] == 'true') {
 				$inputElement['class'] = "required";
 			}
-			$this->$function($inputElement);
+			$this->$function($inputElement, $entity, $field);
 		} else {
 			$fieldElement = $this->formElement->addChild("p", "No generation function for type " . $field["type"]);
 		}
 	}
 
 	public function generateEndEntity($entity) {
-		$dom =  dom_import_simplexml($this->formElement)->ownerDocument;
+		$dom = dom_import_simplexml($this->formElement)->ownerDocument;
 		$dom->formatOutput = true;
-		$dom->save($this->outputdir . "/form" . $entity['name'] . ".html");
+
+		$str = str_replace("&gt;", ">", str_replace("&lt;", "<", $dom->saveXml()));
+		file_put_contents($this->getOutputFilename($entity), $str);
 	}
 
-	abstract protected function generateIntegerInput($inputElement);
-	abstract protected function generateStringInput($inputElement);
-	abstract protected function generateDateInput($inputElement);
-	abstract protected function generateDatetimeInput($inputElement);
+	public function getOutputFilename($entity) {
+		return $this->outputdir . "/form" . $entity['name'] . ".php";
+	}
+
+	abstract protected function generateIntegerInput($inputElement, $entity, $field);
+	abstract protected function generateStringInput($inputElement, $entity, $field);
+	abstract protected function generateDateInput($inputElement, $entity, $field);
+	abstract protected function generateDatetimeInput($inputElement, $entity, $field);
 
 }
 ?>

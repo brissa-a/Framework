@@ -19,7 +19,7 @@ class Js extends AbstractGenerator{
 	}
 
 	public function generateStartEntity($entity) {
-		$this->outputfile = fopen($this->outputdir . "/form" . $entity['name'].".js", 'w+') or die("can't open file");
+		$this->outputfile = fopen($this->getOutputFilename($entity), 'w+') or die("can't open file");
 		fwrite($this->outputfile, "
 		jQuery(document).ready(function(){
 			jQuery('#form" . $entity['name'] . "').validate();
@@ -40,6 +40,10 @@ class Js extends AbstractGenerator{
 
 	public function generateEndEntity($entity) {
 		fclose($this->outputfile);
+	}
+	
+	public function getOutputFilename($entity) {
+		return $this->outputdir . "/form" . $entity['name'].".js";
 	}
 
 }

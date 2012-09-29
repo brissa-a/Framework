@@ -1,5 +1,6 @@
 <?php
-	function println($text) {
-		echo $text . "\n";
-	}
+function println($text) {
+	echo $text . "\n";
+}
+
 ?>

@@ -11,8 +11,6 @@ abstract class ActionCreateUpdate extends AbstractGenerator{
 	);
 	
 	protected $outputfilec;
-	protected $outputfileu;
-	protected $outputfiled;
 	protected $outputdir;
 
 	public function __construct($outputdir) {
@@ -20,13 +18,10 @@ abstract class ActionCreateUpdate extends AbstractGenerator{
 	}
 
 	public function generateStartEntity($entity) {
-		$this->outputfilec = fopen($this->outputdir . "/create" . $entity['name'] . ".php", 'w+') or die("can't open file");
-		$this->outputfileu = fopen($this->outputdir . "/update" . $entity['name'] . ".php", 'w+') or die("can't open file");
-		$this->outputfiled = fopen($this->outputdir . "/delete" . $entity['name'] . ".php", 'w+') or die("can't open file");
-		fwrite($this->outputfilec, "<?php\n");
-		
+		$this->outputfilec = fopen($this->getOutputFilename($entity), 'w+') or die("can't open file");
 		fwrite($this->outputfilec,
-'if (isset($_POST["'. $entity['name'] . '_id"])) {
+'<?php
+if (isset($_POST["'. $entity['name'] . '_id"])) {
 	//Update
 	$new' . $entity["name"] . ' = $em -> getRepository("' . $entity["name"] . '") -> findOneBy(array("id" => $_POST["'. $entity['name'] . '_id"]));;		
 } else {
@@ -42,7 +37,7 @@ abstract class ActionCreateUpdate extends AbstractGenerator{
 			$function = (self::$map[(string)$field["type"]]);
 			$this->$function($entity, $field);
 		} else {
-			fwrite($this->outputfilec,"//No generation function for type " . $field["type"]);
+			fwrite($this->outputfilec,"//No generation function for type " . $field["type"] . "\n");
 		}
 	}
 
@@ -54,14 +49,14 @@ $em -> flush($new' . $entity["name"] . ');
 ?>
 ');
 		fclose($this->outputfilec);
-		fclose($this->outputfileu);
-		fclose($this->outputfiled);
 	}
 
+	public function getOutputFilename($entity) {
+		return $this->outputdir . "/create" . $entity['name'] . ".php";
+	}
 
 	abstract protected function generateDate($entity, $field);
 	abstract protected function generateDateTime($entity, $field);
 	abstract protected function generateString($entity, $field);
-
 }
 ?>

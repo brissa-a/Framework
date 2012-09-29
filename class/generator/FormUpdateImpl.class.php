@@ -1,20 +1,22 @@
 <?php
 
 namespace Generator;
-include_once "./FormCreate.class.php";
+include_once "./FormCreateImpl.class.php";
 
-class FormCreateImpl extends FormCreate{
+class FormUpdateImpl extends FormCreateImpl {
 
-	protected function generateIntegerInput($inputElement, $entity, $field) {
-		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
-		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] : "";
-		$inputElement['type'] = "text";
+	public function getOutputFilename($entity) {
+		return $this->outputdir . "/formUpdate" . $entity['name'] . ".php";
 	}
 
+	protected function generateIntegerInput($inputElement, $entity, $field) {
+		parent::generateIntegerInput($inputElement, $entity, $field);
+		$inputElement['value'] = '<?php echo $' . strtolower($entity['name']) . '->get' . ucfirst($field['name']) . '() ?>';
+			}
+
 	protected function generateStringInput($inputElement, $entity, $field) {
-		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
-		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] : "";
-		$inputElement['type'] = "text";
+		parent::generateStringInput($inputElement, $entity, $field);
+		$inputElement['value'] = '<?php echo $' . strtolower($entity['name']) . '->get' . ucfirst($field['name']) . '() ?>';
 	}
 
 	protected function generateDateInput($inputElement, $entity, $field) {
@@ -27,7 +29,7 @@ class FormCreateImpl extends FormCreate{
 		$inputElement['id'] = isset($inputElement['id']) ? $inputElement['id'] : $inputElement['name'];
 		$inputElement['class'] = isset($inputElement['class']) ? $inputElement['class'] + " datetime" : "datetime";
 		$inputElement['type'] = "text";
-	}	
-}
+	}
 
+}
 ?>
