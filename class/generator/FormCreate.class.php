@@ -19,9 +19,19 @@ abstract class FormCreate extends AbstractGenerator {
 	}
 
 	public function generateStartEntity($entity) {
+		if ($this->getCreateOrUpdate() == "update") {
+		'	<?php
+
+global $em;
+
+$atelier = $em -> getRepository("Atelier") -> findOneBy(array("id" => $_GET["id"]));'
+
+if ($atelier == null)
+	unset($atelier);
+		}
 		$this->formElement = new \SimpleXMLElement("<form></form>");
 		$this->formElement->addAttribute("id", "form" . $entity["name"]);
-		$this->formElement->addAttribute("action", "@update" . $entity["name"] . ".html");
+		$this->formElement->addAttribute("action", "@create". $entity["name"] . ".php");
 		$this->formElement->addAttribute("method", "post");
 	}
 
@@ -53,7 +63,9 @@ abstract class FormCreate extends AbstractGenerator {
 		$dom = dom_import_simplexml($this->formElement)->ownerDocument;
 		$dom->formatOutput = true;
 
-		$str = str_replace("&gt;", ">", str_replace("&lt;", "<", $dom->saveXml()));
+		$replace = array("&quot;", "&gt;", "&lt;");
+		$by = array("'", ">", "<");
+		$str = str_replace($replace, $by,  $dom->saveXml());
 		file_put_contents($this->getOutputFilename($entity), $str);
 	}
 
@@ -61,6 +73,10 @@ abstract class FormCreate extends AbstractGenerator {
 		return $this->outputdir . "/form" . $entity['name'] . ".php";
 	}
 
+	public function getCreateOrUpdate() {
+		return "create";
+	}
+	
 	abstract protected function generateIntegerInput($inputElement, $entity, $field);
 	abstract protected function generateStringInput($inputElement, $entity, $field);
 	abstract protected function generateDateInput($inputElement, $entity, $field);
