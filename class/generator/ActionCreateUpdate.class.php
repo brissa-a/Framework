@@ -3,6 +3,8 @@
 namespace Generator;
 include_once "./AbstractGenerator.class.php";
 
+//TODO ajouter les validations du cote server
+
 abstract class ActionCreateUpdate extends AbstractGenerator{
 	static private $map = array(
 		"string" => "generateString",

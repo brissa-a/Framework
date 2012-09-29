@@ -14,23 +14,27 @@ abstract class FormCreate extends AbstractGenerator {
 
 	public function generateStartEntity($entity) {
 		$this->open($this->getOutputFilename($entity));
-		if ($this->getCreateOrUpdate() == "update") {
-			$this->write(
+		$this->write(
 '<?php
 global $em;
 
-$atelier = $em -> getRepository("Atelier") -> findOneBy(array("id" => $_GET["id"]));
-
-if ($atelier == null)
-	unset($atelier);
-?>'
-);
-		}
+if (isset($_REQUEST["'. strtolower($entity['name']) .'_id"])) {
+$'. strtolower($entity['name']) .' = $em -> getRepository("'. $entity['name'] . '") -> findOneBy(array("id" => $_GET["'. strtolower($entity['name']) .'_id"]));
+if ($'. strtolower($entity['name']) .' == null)
+	unset($'. strtolower($entity['name']) .');
+}
+?>
+');
 		$this->xmlUtils->open("form", array(
 		"id" => "form" . $entity["name"],
 		"action" => "@create" . $entity["name"] . ".php",
 		"method" => "post"
 		));
+		$this->write('
+<?php if (isset($'. strtolower($entity['name']) .')): ?>
+<input id="'. strtolower($entity['name']) .'_id" name="id" type="hidden" value="<?php echo $'. strtolower($entity['name']) .'->getId()?>"/>
+<?php endif ?>
+');
 	}
 
 	public function generateStartField($entity, $field) {
