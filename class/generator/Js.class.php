@@ -11,12 +11,7 @@ class Js extends AbstractGenerator{
 	);
 
 	private $formElement;
-	private $outputdir;
 	private $outputfile;
-
-	public function __construct($outputdir) {
-		$this->outputdir = $outputdir;
-	}
 
 	public function generateStartEntity($entity) {
 		$this->outputfile = fopen($this->getOutputFilename($entity), 'w+') or die("can't open file");

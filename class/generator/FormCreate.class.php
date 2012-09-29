@@ -11,62 +11,56 @@ abstract class FormCreate extends AbstractGenerator {
 		"datetime" => "generateDatetimeInput"
 	);
 
-	protected $formElement;
-	protected $outputdir;
-
-	public function __construct($outputdir) {
-		$this->outputdir = $outputdir;
-	}
 
 	public function generateStartEntity($entity) {
+		$this->open($this->getOutputFilename($entity));
 		if ($this->getCreateOrUpdate() == "update") {
-		'	<?php
-
+			$this->write(
+'<?php
 global $em;
 
-$atelier = $em -> getRepository("Atelier") -> findOneBy(array("id" => $_GET["id"]));'
+$atelier = $em -> getRepository("Atelier") -> findOneBy(array("id" => $_GET["id"]));
 
 if ($atelier == null)
 	unset($atelier);
+?>'
+);
 		}
-		$this->formElement = new \SimpleXMLElement("<form></form>");
-		$this->formElement->addAttribute("id", "form" . $entity["name"]);
-		$this->formElement->addAttribute("action", "@create". $entity["name"] . ".php");
-		$this->formElement->addAttribute("method", "post");
+		$this->xmlUtils->open("form", array(
+		"id" => "form" . $entity["name"],
+		"action" => "@create" . $entity["name"] . ".php",
+		"method" => "post"
+		));
 	}
 
 	public function generateStartField($entity, $field) {
 		if (array_key_exists((string)$field["type"], self::$map)) {
-			$fieldElement = $this->formElement->addChild("p");
-			$name = $this->formName($entity, $field);
-			$label = isset($field['label']) ? $field['label'] : $name;
-			$labelElement = $fieldElement->addChild("label", $label . ":");
-			$inputElement = $fieldElement->addChild("input");
-			$function = (self::$map[(string)$field["type"]]);
-			$inputElement['name'] = $name;
-			if (isset($field['gen_minlength'])) {
-				$inputElement['minlength'] = $field['gen_minlength'];
-			}
-			if (isset($field['length'])) {
-				$inputElement['maxlength'] = $field['length'];
-			}
-			if (isset($field['gen_required']) && $field['gen_required'] == 'true') {
-				$inputElement['class'] = "required";
-			}
-			$this->$function($inputElement, $entity, $field);
+			$this->xmlUtils->open("p");
+				$name = $this->formName($entity, $field);
+				$label = isset($field['label']) ? $field['label'] : $name;
+				$this->xmlUtils->all("label", array("for" => $name), $label);
+				$function = (self::$map[(string)$field["type"]]);
+				$attr['name'] = $name;
+				$attr['id'] = $attr['name'];
+				if (isset($field['gen_minlength'])) {
+					$attr['minlength'] = $field['gen_minlength'];
+				}
+				if (isset($field['length'])) {
+					$attr['maxlength'] = $field['length'];
+				}
+				if (isset($field['gen_required']) && $field['gen_required'] == 'true') {
+					$attr['class'] = "required";
+				}
+				$this->$function($attr, $entity, $field);
+			$this->xmlUtils->close("p");
 		} else {
-			$fieldElement = $this->formElement->addChild("p", "No generation function for type " . $field["type"]);
+			$this->write("<p>"."No generation function for type " . $field["type"] . "</p>");
 		}
 	}
 
 	public function generateEndEntity($entity) {
-		$dom = dom_import_simplexml($this->formElement)->ownerDocument;
-		$dom->formatOutput = true;
-
-		$replace = array("&quot;", "&gt;", "&lt;");
-		$by = array("'", ">", "<");
-		$str = str_replace($replace, $by,  $dom->saveXml());
-		file_put_contents($this->getOutputFilename($entity), $str);
+		$this->xmlUtils->close("form");
+		$this->close();
 	}
 
 	public function getOutputFilename($entity) {
@@ -76,7 +70,7 @@ if ($atelier == null)
 	public function getCreateOrUpdate() {
 		return "create";
 	}
-	
+
 	abstract protected function generateIntegerInput($inputElement, $entity, $field);
 	abstract protected function generateStringInput($inputElement, $entity, $field);
 	abstract protected function generateDateInput($inputElement, $entity, $field);

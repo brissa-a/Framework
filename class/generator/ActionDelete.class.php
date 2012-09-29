@@ -3,22 +3,14 @@
 namespace Generator;
 include_once "./AbstractGenerator.class.php";
 
-class ActionDelete extends AbstractGenerator{
-	
-	protected $outputfile;
-	protected $outputdir;
-
-	public function __construct($outputdir) {
-		$this->outputdir = $outputdir;
-	}
+class ActionDelete extends AbstractGenerator {
 
 	public function generateStartEntity($entity) {
-		$this->outputfile = fopen($this->getOutputFilename($entity), 'w+') or die("can't open file");
-		fwrite($this->outputfile, "<?php\n");
-		
-		fwrite($this->outputfile,
-'$old'. $entity['name'] . ' = $em->find("'. $entity['name'] . '", $_GET["id"]);
-$em->remove($old'. $entity['name'] . ');
+		$this->open($this->getOutputFilename($entity));
+		$this->write(
+'<?php
+$old' . $entity['name'] . ' = $em->find("' . $entity['name'] . '", $_GET["id"]);
+$em->remove($old' . $entity['name'] . ');
 $em->flush();
 ?>
 ');
@@ -28,9 +20,8 @@ $em->flush();
 	public function generateStartField($entity, $field) {
 	}
 
-
 	public function generateEndEntity($entity) {
-		fclose($this->outputfile);
+		$this->close();
 	}
 
 	public function getOutputFilename($entity) {

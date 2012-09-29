@@ -9,17 +9,10 @@ abstract class ActionCreateUpdate extends AbstractGenerator{
 		"date" => "generateDate",
 		"datetime" => "generateDatetime"
 	);
-	
-	protected $outputfilec;
-	protected $outputdir;
-
-	public function __construct($outputdir) {
-		$this->outputdir = $outputdir;
-	}
 
 	public function generateStartEntity($entity) {
-		$this->outputfilec = fopen($this->getOutputFilename($entity), 'w+') or die("can't open file");
-		fwrite($this->outputfilec,
+		$this->open($this->getOutputFilename($entity));
+		$this->write(
 '<?php
 if (isset($_POST["'. $entity['name'] . '_id"])) {
 	//Update
@@ -37,18 +30,18 @@ if (isset($_POST["'. $entity['name'] . '_id"])) {
 			$function = (self::$map[(string)$field["type"]]);
 			$this->$function($entity, $field);
 		} else {
-			fwrite($this->outputfilec,"//No generation function for type " . $field["type"] . "\n");
+			$this->write("//No generation function for type " . $field["type"] . "\n");
 		}
 	}
 
 
 	public function generateEndEntity($entity) {
-		fwrite($this->outputfilec, '
+		$this->write('
 $em -> merge($new' . $entity["name"] . ');
 $em -> flush($new' . $entity["name"] . ');
 ?>
 ');
-		fclose($this->outputfilec);
+		$this->close();
 	}
 
 	public function getOutputFilename($entity) {
