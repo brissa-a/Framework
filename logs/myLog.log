@@ -2354,3 +2354,13 @@ DEBUG 09/26/12 20:19:23 Controller - Include Page Specifique JS:plugin/accountMa
 main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
 DEBUG 09/26/12 20:19:23 Controller - Result printed - 
 Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/27/12 17:49:55 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/27/12 17:49:55 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/27/12 17:49:55 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/27/12 17:49:55 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/27/12 17:49:55 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)

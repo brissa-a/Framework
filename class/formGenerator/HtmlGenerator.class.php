@@ -48,7 +48,7 @@ class HtmlGenerator {
 	public function generateStartField($entity, $field) {
 		if (array_key_exists((string)$field["type"], self::$map)) {
 			$fieldElement = $this->formElement->addChild("p");
-			$name = $entity['name'] . "_" . $field['name'];
+			$name = strtolower($entity['name']) . "_" . $field['name'];
 			$label = isset($field['label']) ? $field['label'] : $name;
 			$labelElement = $fieldElement->addChild("label", $label . ":");
 			$inputElement = $fieldElement->addChild("input");
