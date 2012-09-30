@@ -21,6 +21,11 @@ $em->flush();
 	}
 
 	public function generateEndEntity($entity) {
+		echo '
+<action
+	name="delete' . $entity['name'] . '"
+	path="' . $this->getOutputFilename($entity) . '" />
+		';
 		$this->close();
 	}
 

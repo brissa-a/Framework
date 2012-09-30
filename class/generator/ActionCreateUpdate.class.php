@@ -43,6 +43,11 @@ $em -> merge($new' . $entity["name"] . ');
 $em -> flush($new' . $entity["name"] . ');
 ?>
 ');
+		echo '
+<action
+	name="create' . $entity['name'] . '"
+	path="' . $this->getOutputFilename($entity) . '" />
+		';
 		$this->close();
 	}
 

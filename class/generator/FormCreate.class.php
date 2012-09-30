@@ -64,15 +64,20 @@ if ($'. strtolower($entity['name']) .' == null)
 
 	public function generateEndEntity($entity) {
 		$this->xmlUtils->close("form");
+		
+		echo '
+<result
+	name="form' . $entity['name'] . '"
+	path="' . $this->getOutputFilename($entity) . '"
+	layout="main">
+</result>
+		';
+		
 		$this->close();
 	}
 
 	public function getOutputFilename($entity) {
 		return $this->outputdir . "/form" . $entity['name'] . ".php";
-	}
-
-	public function getCreateOrUpdate() {
-		return "create";
 	}
 
 	abstract protected function generateIntegerInput($inputElement, $entity, $field);
