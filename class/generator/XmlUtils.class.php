@@ -12,7 +12,7 @@ class XmlUtils {
 
 	public function attr($attr) {
 		foreach ($attr as $key => $value) {
-			$this->writer->write("$key=\"$value\"");
+			$this->writer->write("$key=\"$value\" ");
 		}
 	}
 	

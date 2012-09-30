@@ -8,14 +8,16 @@
 	name="home"
 	path="plugin/testPlugin/result/test.html"
 	layout="main"></result>
+	
+	<!-- Edition Membre -->
 	<result
 	name="formMember"
-	path="../../plugin/testPlugin/member/formMember.php"
+	path="plugin/testPlugin/member/formMember.php"
 	layout="main"></result>
 	<action
 	name="createMember"
-	path="../../plugin/testPlugin/member/createMember.php" />
+	path="plugin/testPlugin/member/createMember.php" />
 	<action
 	name="deleteMember"
-	path="../../plugin/testPlugin/member/deleteMember.php" />
+	path="plugin/testPlugin/member/deleteMember.php" />
 </controller-mapping>

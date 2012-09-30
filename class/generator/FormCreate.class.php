@@ -8,7 +8,8 @@ abstract class FormCreate extends AbstractGenerator {
 	static private $map = array(
 		"string" => "generateStringInput",
 		"date" => "generateDateInput",
-		"datetime" => "generateDatetimeInput"
+		"datetime" => "generateDatetimeInput",
+		"boolean" => "generateBooleanInput"
 	);
 
 
@@ -16,10 +17,12 @@ abstract class FormCreate extends AbstractGenerator {
 		$this->open($this->getOutputFilename($entity));
 		$this->write(
 '<?php
+require_once (\'config/global.php\');
+
 global $em;
 
 if (isset($_REQUEST["'. strtolower($entity['name']) .'_id"])) {
-$'. strtolower($entity['name']) .' = $em -> getRepository("'. $entity['name'] . '") -> findOneBy(array("id" => $_GET["'. strtolower($entity['name']) .'_id"]));
+$'. strtolower($entity['name']) .' = $em -> getRepository("'. $entity['name'] . '") -> findOneBy(array("id" => $_REQUEST["'. strtolower($entity['name']) .'_id"]));
 if ($'. strtolower($entity['name']) .' == null)
 	unset($'. strtolower($entity['name']) .');
 }
@@ -27,7 +30,7 @@ if ($'. strtolower($entity['name']) .' == null)
 ');
 		$this->xmlUtils->open("form", array(
 		"id" => "form" . $entity["name"],
-		"action" => "@create" . $entity["name"] . ".php",
+		"action" => "@create" . $entity["name"] . ".html",
 		"method" => "post"
 		));
 		$this->write('
@@ -63,6 +66,7 @@ if ($'. strtolower($entity['name']) .' == null)
 	}
 
 	public function generateEndEntity($entity) {
+		$this->write('<input type="submit" value="Submit">');
 		$this->xmlUtils->close("form");
 		
 		echo '
@@ -80,10 +84,11 @@ if ($'. strtolower($entity['name']) .' == null)
 		return $this->outputdir . "/form" . $entity['name'] . ".php";
 	}
 
-	abstract protected function generateIntegerInput($inputElement, $entity, $field);
-	abstract protected function generateStringInput($inputElement, $entity, $field);
-	abstract protected function generateDateInput($inputElement, $entity, $field);
-	abstract protected function generateDatetimeInput($inputElement, $entity, $field);
+	abstract protected function generateIntegerInput($attr, $entity, $field);
+	abstract protected function generateStringInput($attr, $entity, $field);
+	abstract protected function generateDateInput($attr, $entity, $field);
+	abstract protected function generateDatetimeInput($attr, $entity, $field);
+	abstract protected function generateBooleanInput($attr, $entity, $field);
 
 }
 ?>

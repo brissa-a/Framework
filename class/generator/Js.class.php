@@ -11,22 +11,48 @@ class Js extends AbstractGenerator{
 	);
 
 	private $formElement;
-	private $outputfile;
 
 	public function generateStartEntity($entity) {
-		$this->outputfile = fopen($this->getOutputFilename($entity), 'w+') or die("can't open file");
-		fwrite($this->outputfile, "
-		jQuery(document).ready(function(){
-			jQuery('#form" . $entity['name'] . "').validate();
-			jQuery('#form" . $entity['name'] . " .date').datepicker({
-				dateFormat: 'dd/mm/yy',
-				changeYear: true,
-				changeMonth: true,
-				yearRange: '1900:2100'
-			});
-			jQuery('#form" . $entity['name'] . " .date').datepicker($.datepicker.regional['fr']);
-		});
-		");
+		$this->open($this->getOutputFilename($entity));
+		$this->write("
+jQuery(document).ready(function(){
+	jQuery('#form" . $entity['name'] . "').validate();
+	jQuery('#form" . $entity['name'] . " .date').datepicker({
+		dateFormat: 'dd/mm/yy',
+		changeYear: true,
+		changeMonth: true,
+		yearRange: '1900:2100'
+	});
+	jQuery('#form" . $entity['name'] . " .date').datepicker($.datepicker.regional['fr']);
+		
+	jQuery('#form" . $entity['name'] . " .datetime').datetimepicker({
+		dateFormat: 'dd/mm/yy',
+		timeFormat: 'hh:mm',
+		changeYear: true,
+		changeMonth: true,
+		yearRange: '1900:2100',
+		timeText: 'Heure',
+		hourText: 'Heures',
+		minuteText: 'Minutes',
+		currentText: 'Maintenant',
+		closeText: 'Valider'
+	});
+	
+	jQuery('#form" . $entity['name'] . " .time').timepicker({
+		dateFormat: 'dd/mm/yy',
+		timeFormat: 'hh:mm',
+		changeYear: true,
+		changeMonth: true,
+		yearRange: '1900:2100',
+		timeOnlyTitle: 'Choisissez une heure',
+		timeText: 'Heure',
+		hourText: 'Heures',
+		minuteText: 'Minutes',
+		currentText: 'Maintenant',
+		closeText: 'Valider'
+	});
+});
+");
 	}
 
 	public function generateStartField($entity, $field) {
@@ -34,7 +60,7 @@ class Js extends AbstractGenerator{
 	}
 
 	public function generateEndEntity($entity) {
-		fclose($this->outputfile);
+		$this->close();
 	}
 	
 	public function getOutputFilename($entity) {

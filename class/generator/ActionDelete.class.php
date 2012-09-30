@@ -9,7 +9,11 @@ class ActionDelete extends AbstractGenerator {
 		$this->open($this->getOutputFilename($entity));
 		$this->write(
 '<?php
-$old' . $entity['name'] . ' = $em->find("' . $entity['name'] . '", $_GET["id"]);
+require_once (\'config/global.php\');
+
+global $em;
+
+$old' . $entity['name'] . ' = $em->find("' . $entity['name'] . '", $_REQUEST["' . strtolower($entity['name']) . '_id"]);
 $em->remove($old' . $entity['name'] . ');
 $em->flush();
 ?>

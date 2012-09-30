@@ -11,7 +11,7 @@
 		<layout class="LoggerLayoutHtml">
 			<param name="locationInfo" value="true" />
 		</layout>
-		<param name="file" value="logs/myLog.html" />
+		<param name="file" value="logs/index.html" />
 	</appender>
 	
 	<root>

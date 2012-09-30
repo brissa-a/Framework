@@ -31,7 +31,14 @@ class FormCreateImpl extends FormCreate{
 		$attr['type'] = "text";
 		$attr['value'] = '<?php if (isset($' . strtolower($entity['name']) . ')){ echo $' . strtolower($entity['name']) . '->get' . ucfirst($field['name']) . '()->format("d/m/Y H:m");} ?>';
 		$this->xmlUtils->all("input", $attr);
-	}	
+	}
+	
+	protected function generateBooleanInput($attr, $entity, $field) {
+		$this->xmlUtils->open("select", $attr);
+		$this->xmlUtils->all("option", array(), "true");
+		$this->xmlUtils->all("option", array(), "false");
+		$this->xmlUtils->close("select");
+	}
 }
 
 ?>

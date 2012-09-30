@@ -28,5 +28,12 @@ class ActionCreateUpdateImpl extends ActionCreateUpdate{
 ');
 	}
 
+	protected function generateBoolean($entity, $field) {
+		$fieldName = $this->formName($entity, $field);
+		$this->write(
+'$new' . $entity["name"] . '->set' . ucfirst($field["name"]) . '($_POST["' . $fieldName . '"] == "true");
+');
+	}
+
 }
 ?>

@@ -2364,3 +2364,683 @@ DEBUG 09/27/12 17:49:55 Controller - Include Page Specifique JS:plugin/accountMa
 main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
 DEBUG 09/27/12 17:49:55 Controller - Result printed - 
 Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:14:17 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:14:17 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:14:17 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:14:17 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:14:17 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:14:21 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:14:21 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:14:21 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:14:21 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:14:21 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:14:56 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:14:56 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:14:56 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:14:56 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:14:56 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:14:58 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:14:58 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:14:58 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:14:58 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:14:58 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:15:37 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:15:37 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:15:37 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+ERROR 09/30/12 13:15:37 Controller - Le fichier de resultat ../../plugin/testPlugin/member/formMember.phpest introuvable. - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:191)
+DEBUG 09/30/12 13:17:12 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:17:12 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:17:12 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:17:12 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:17:12 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:17:33 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:17:33 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:17:33 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:17:33 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:17:33 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:17:34 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:17:34 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:17:34 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:17:34 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:17:34 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:18:21 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:18:21 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:18:21 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:18:21 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:18:21 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:34:40 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:34:40 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:34:40 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:34:40 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:34:40 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 13:34:44 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 13:34:44 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 13:34:44 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 13:34:44 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 13:34:44 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:12:00 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:12:00 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:12:00 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:12:00 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:12:00 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:12:19 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:12:19 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:12:19 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:12:19 Controller - Include Page Specifique JS:plugin/accountManager/result/formAddress.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:12:19 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:15:43 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:15:43 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:15:43 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:15:43 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:15:43 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:21:25 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:21:25 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:21:25 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:21:25 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:21:25 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:30:49 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:30:49 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:30:49 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:30:49 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:30:49 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:31:10 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:31:10 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:31:10 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:31:10 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:31:10 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:31:15 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:31:15 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:31:15 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:31:15 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:31:15 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:31:41 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:31:41 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:31:41 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:31:41 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:22)
+DEBUG 09/30/12 15:31:41 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:36:34 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:36:34 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:36:34 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:36:34 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 15:36:34 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:36:53 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:36:53 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:36:53 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:36:53 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 15:36:53 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:37:32 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:37:32 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:37:32 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:37:32 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 15:37:32 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 15:37:48 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 15:37:48 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 15:37:48 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 15:37:48 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 15:37:48 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:02:03 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:02:03 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:02:03 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:02:03 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:02:03 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:02:15 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:02:15 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:02:15 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:02:15 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:02:15 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:47:55 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:47:55 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:47:55 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:47:55 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:47:55 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:48:18 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:48:18 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:48:18 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:48:18 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:48:18 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:49:16 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:49:16 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:49:16 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:49:16 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:49:16 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:50:01 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:50:01 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:52:27 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:52:27 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:52:33 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:52:33 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:52:38 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:52:38 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:52:38 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:52:38 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:52:38 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:52:46 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:52:46 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:52:46 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:52:46 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:52:46 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:53:23 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:53:23 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:53:23 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:53:23 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:53:23 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:53:25 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:53:25 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:53:25 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:53:25 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:53:25 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:53:33 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:53:33 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:53:33 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:53:33 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:53:33 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:55:09 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:55:09 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:55:09 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:55:09 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:55:09 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:57:43 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:57:43 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 18:57:43 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 18:57:43 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 18:57:43 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 18:58:36 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 18:58:36 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:02:28 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:02:28 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:02:28 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:02:28 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:02:28 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:02:30 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:02:30 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:02:30 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:02:30 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:02:30 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:02:42 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:02:42 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:05:40 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:05:40 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:05:40 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:05:40 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:05:40 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:05:41 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:05:41 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:05:41 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:05:41 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:05:41 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:06:39 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:06:39 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:06:39 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:06:39 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:06:39 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:06:51 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:06:51 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+ERROR 09/30/12 19:06:51 Controller - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'isActive' cannot be null - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:191)
+DEBUG 09/30/12 19:36:43 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:36:43 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:36:43 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:36:43 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:36:43 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:36:44 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:36:44 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:36:44 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:36:44 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:36:44 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:37:00 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:37:00 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+ERROR 09/30/12 19:37:00 Controller - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'isActive' cannot be null - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:191)
+DEBUG 09/30/12 19:37:52 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:37:52 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:37:52 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:37:52 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:37:52 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:38:03 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:38:03 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:38:03 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:38:03 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:38:03 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:38:11 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:38:11 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:38:11 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:38:11 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:38:11 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:38:13 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:38:13 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:38:13 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:38:13 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:38:13 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:38:22 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:38:22 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:38:22 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:38:22 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:38:22 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:39:23 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:39:23 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:39:23 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:39:23 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:39:23 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:39:27 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:39:27 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:39:27 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:39:27 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:39:27 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:41:35 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:41:35 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:41:35 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:41:35 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:41:35 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:41:38 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:41:38 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:41:38 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:41:38 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:41:38 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:41:39 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:41:39 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:41:39 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:41:39 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:41:39 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:41:40 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:41:40 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:41:40 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:41:40 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:41:40 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:41:42 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:41:42 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:41:42 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:41:42 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:41:42 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:47:32 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:47:32 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:47:32 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:47:32 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:47:32 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:49:34 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:49:34 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:49:34 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:49:34 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:49:34 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:50:02 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:50:02 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:50:02 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:50:02 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:50:02 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:50:16 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:50:16 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:50:16 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:50:16 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:50:16 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:51:05 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:51:05 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:51:05 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:51:05 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:51:05 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:51:43 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:51:43 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:51:43 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:51:43 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:51:43 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:52:42 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:52:42 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:52:42 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:52:42 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:52:42 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 19:53:27 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 19:53:27 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 19:53:27 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 19:53:27 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 19:53:27 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 20:04:21 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 20:04:21 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 20:04:21 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 20:04:21 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 20:04:21 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 20:07:19 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 20:07:19 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 20:07:19 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 20:07:19 Controller - Include Page Specifique JS:plugin/testPlugin/result/test.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 20:07:19 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)
+DEBUG 09/30/12 20:07:24 Controller - Controllers loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:180)
+DEBUG 09/30/12 20:07:24 Controller - Controller loaded - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:182)
+DEBUG 09/30/12 20:07:24 Controller - Action executed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:184)
+DEBUG 09/30/12 20:07:24 Controller - Include Page Specifique JS:plugin/testPlugin/member/formMember.js - 
+main.main(C:\Users\brissa_a\workspace\PHP\Framework\layout\main\js.php:21)
+DEBUG 09/30/12 20:07:24 Controller - Result printed - 
+Controller.execute(C:\Users\brissa_a\workspace\PHP\Framework\class\controller\Controller.class.php:186)

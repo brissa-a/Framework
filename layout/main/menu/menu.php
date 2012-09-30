@@ -4,8 +4,8 @@
 
 <nav>
 	<ul>
-		<li><a href="/Framework/accountManager-formAddress.html">Generation Formulaire</a></li>
-		<li>Lien 2</li>
+		<li><a href="/accountManager-formAddress.html">Generation Formulaire</a></li>
+		<li><a href="/testPlugin-formMember">Generation Formulaire 2</a></li>
 		<li>Lien 3</li>
 		<li>Lien 4</li>
 		<li>Lien 5</li>

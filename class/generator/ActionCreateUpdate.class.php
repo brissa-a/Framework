@@ -9,14 +9,18 @@ abstract class ActionCreateUpdate extends AbstractGenerator{
 	static private $map = array(
 		"string" => "generateString",
 		"date" => "generateDate",
-		"datetime" => "generateDatetime"
+		"datetime" => "generateDatetime",
+		"boolean" => "generateBoolean"
 	);
 
 	public function generateStartEntity($entity) {
 		$this->open($this->getOutputFilename($entity));
 		$this->write(
 '<?php
-if (isset($_POST["'. $entity['name'] . '_id"])) {
+require_once (\'config/global.php\');
+
+global $em;
+if (isset($_POST["'. strtolower($entity['name']) . '_id"])) {
 	//Update
 	$new' . $entity["name"] . ' = $em -> getRepository("' . $entity["name"] . '") -> findOneBy(array("id" => $_POST["'. $entity['name'] . '_id"]));;		
 } else {
@@ -58,5 +62,6 @@ $em -> flush($new' . $entity["name"] . ');
 	abstract protected function generateDate($entity, $field);
 	abstract protected function generateDateTime($entity, $field);
 	abstract protected function generateString($entity, $field);
+	abstract protected function generateBoolean($entity, $field);
 }
 ?>

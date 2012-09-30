@@ -20,8 +20,8 @@ RewriteEngine on
 #--------------------------------------------------
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-zA-Z]*)-@([a-zA-Z]*)\.html$ index.php?c=$1&a=$2 [L]
+RewriteRule ^([a-zA-Z]*)/@([a-zA-Z]*)\.html$ index.php?c=$1&a=$2 [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-zA-Z]*)-([a-zA-Z]*)\.html$ index.php?c=$1&p=$2 [L]
+RewriteRule ^([a-zA-Z]*)/([a-zA-Z]*)\.html$ index.php?c=$1&p=$2 [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-zA-Z]*)-([a-zA-Z]*)@([a-zA-Z]*)\.html$ index.php?c=$1&p=$2&a=$3 [L]
+RewriteRule ^([a-zA-Z]*)/([a-zA-Z]*)@([a-zA-Z]*)\.html$ index.php?c=$1&p=$2&a=$3 [L,QSA]
